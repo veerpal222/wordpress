@@ -1,0 +1,9 @@
+1. apt update    # Update my server 🔄
+2. apt install docker.io    # Install Docker 🐳
+3.apt install docker-compose   # Install Docker Compose 🛠️
+4 systemctl start docker    # Start Docker service ▶️
+5. systemctl enable docker   # Enable Docker service on boot 🔄
+
+Write the compose file, save it, then run the following command:
+
+6. docker-compose up -d
